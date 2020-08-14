@@ -622,7 +622,7 @@ java -cp target/commercial-paper-0.0.1-SNAPSHOT.jar org.digibank.Redeem
   - History of Commercial Paper (Note: the paper state is shown more descriptively eg.  'ISSUED', 'TRADING' and based on currentState values on ledger)
   - Ownership of Commercial Papers
   - Partial Key query, for Commercial papers in org.papernet.papers namespace belonging to MagnetoCorp
-  - Named Query: all redeemed papers in a state of 'redeemed (currentState = 4)
+  - Named Query: all redeemed papers in a state of 'redeemed' (currentState = 4)
   - Named Query: all commercial papers with a face value > $4m
   
   From the `digibank/application` subdirectory run:
